@@ -62,7 +62,7 @@ def spider():
 
 
     #循环30页，每一页爬取职位列表信息
-    for page_int in range(1,2):
+    for page_int in range(1,31):
         #请求参数
         params = {
             #是否是第一页
